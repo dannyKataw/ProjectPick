@@ -1,0 +1,5 @@
+Objective: 
+Create Girl Vs. Girl : Guy Vs. Guy Website
+
+Description:
+Two Images will show of to random images. Only Guyg vs Guy and Girl vs Girl
