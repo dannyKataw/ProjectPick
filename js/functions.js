@@ -1,4 +1,4 @@
-var imagesArray = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"];
+var imagesArray = ["img/Girls/1.svg", "img/Girls/2.svg", "img/Girls/3.svg", "img/Girls/4.svg", "img/Girls/5.svg"];
 function displayImage(){
 	var num = Math.floor(Math.random() * 5);
 	var numm = Math.floor(Math.random() * 5);
