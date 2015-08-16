@@ -21,30 +21,37 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<link href="//vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Poiret+One|Muli|Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link href="source/fading_entrances/fadeIn.css" rel="stylesheet" type="text/css">
 	<script src="//vjs.zencdn.net/4.12/video.js"></script>
 
 </head>
-<body>
+<body onload="displayImage();">
   <div class="row">
       <div class="large-12 medium-12 small-12 columns">
-        <h1> <span class=" animate fadeInDown"> Circ.io/ </span> </h1>
+        <h1> <span class="hvr-grow-shadow"> Circ.io/ </span> </h1>
     </div>
   </div>
-<form name="imageForm">
+<form>
   <div class="row">
-    <div class="large-12 medium-12 small-12  columns">
+    <div class="fadeIn">
+
     <div class="large-6 medium-6 small-6 columns">
-      <h2><span><img class="hvr-grow" src="img/Girls/1.svg" name="picture" width="500px"; height="500px;" onclick="displayImage()" /> </span></h2>
+      <h2><a href="#"><span><img class="hvr-grow-shadow" src="img/Girls/1.svg" name="picture"  onclick="displayImage()" /> </span></a></h2>
     </div>
+
     <div class="large-6 medium-6 small-6 columns">
-      <h2><span><img class="hvr-grow" src="img/Girls/2.svg" name="picture2" width="500px"; height="500px;" onclick="displayImage();" /> </span></h2>
+      <h2><a href="#"><span><img class="hvr-grow-shadow" src="img/Girls/2.svg" name="picture2" onclick="displayImage();" /> </span></a></h2>
     </div>
-  </form>
+
   </div>
+</div>
+</form>
+
+<div class="row">
   <div class="large-12 medium-12 small-12 columns">
-    <h2><span>Who is Hotter?</span></h2>
+    <h2><span>Who's Hotter?</span></h2>
   </div>
-  </div>
+</div>
 </body>
 
 <!-- include before </body> tag -->

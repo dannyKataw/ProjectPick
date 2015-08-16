@@ -3,3 +3,8 @@ Create Girl Vs. Girl : Guy Vs. Guy Website
 
 Description:
 Two Images will show of to random images. Only Guyg vs Guy and Girl vs Girl
+
+Issues: We need the images loaded so that it can pop up faster after each click.
+	We cannot have one of the same images show up in both places.
+	Grab 2 or 3 images of the same person? 
+	BUt how can we stop it from being 2 different pictures of the same person?
